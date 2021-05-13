@@ -4,7 +4,7 @@ let today = new Date();
 
 let hours = today.getHours();
 
-if (hours > 12 || hours < 6) {
+if (hours > 19 || hours < 6) {
 document.body.className = "night";
 } else {
 document.body.className = "day";
