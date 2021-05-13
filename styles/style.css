@@ -5,8 +5,8 @@
 }
 
 html ::-webkit-scrollbar {
-  width: 13px;
-  height: 13px;
+  width: 0px;
+  height: 0px;
   mix-blend-mode: overlay;
   scroll-padding-bottom: 70;
 }
