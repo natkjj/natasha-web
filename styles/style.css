@@ -3,8 +3,12 @@
 @font-face {
   font-family: 'Alegreya', serif;
 }
-
 html ::-webkit-scrollbar {
+  width: 0;
+  /* Remove scrollbar space */
+  mix-blend-mode: overlay;
+}
+/* html ::-webkit-scrollbar {
   width: 0px;
   height: 0px;
   mix-blend-mode: overlay;
@@ -23,7 +27,7 @@ html ::-webkit-scrollbar-thumb:hover {
 html ::-webkit-scrollbar-track {
   background: #ffffff67;
   border-radius: 10px;
-}
+} */
 
 body {
   overflow-y: hidden;
